@@ -1,0 +1,37 @@
+/* .block {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.block:hover {
+  background-color: blue;
+  transition: all 1s;
+} */
+
+/* .loading {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-top: 16px solid red;
+  border-bottom: 16px solid green;
+  border-right: 16px solid yellow;
+  border-left: 16px solid blue;
+  /* animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.loading:hover {
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */

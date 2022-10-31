@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+}
+
+.dvd-logo-container {
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  height: 100vh;
+  width: 100vw;
+}
+.logo-svg {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation: animateX 3s infinite linear alternate-reverse,
+    animateY 4s infinite linear alternate-reverse;
+}
+
+.logo-svg svg {
+  fill: red;
+}
+
+.logo-svg svg path {
+  fill: red;
+  animation: colorChange 5s infinite linear;
+}
+
+@keyframes animateX {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes animateY {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    fill: red;
+  }
+
+  50% {
+    fill: blue;
+  }
+  100% {
+    fill: red;
+  }
+}

@@ -1,0 +1,67 @@
+.parent {
+  background-color: red;
+  height: 400px;
+  display: flex;
+  /* justify-content: space-between; */
+  /* flex-direction: row-reverse; */
+  /* justify-content: end;
+  align-items: end; */
+  flex-wrap: wrap;
+}
+
+.child {
+  background-color: blue;
+  color: white;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+/* .first {
+order: 
+} */
+
+/* .second {
+  order: -1;
+}
+
+.third {
+  order: 1;
+}
+
+.fifth {
+  order: -2;
+} */
+
+.card {
+  width: 170px;
+}
+
+.iso-image img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.avatar-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-info img {
+  width: 32px;
+  height: 32px;
+}
+
+.avatar-info span {
+  font-weight: 700;
+}
+
+.iso-title {
+  font-weight: 700;
+  padding: 50px;
+}
+
+.iso-info {
+  background-color: grey;
+  border-radius: 16px;
+}
